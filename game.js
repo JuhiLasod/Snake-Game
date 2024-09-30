@@ -40,7 +40,7 @@ function gameEngine()
         gameOver.play();
         music.pause();
             inputDir={x: 0,y: 0};
-            alert("Game Over!! Press any ley to continue..");
+            alert("Game Over!! Press any key to continue..");
             snakeArr=[{x: 13,y: 15}];
             music.play();
             score=0;
